@@ -1,0 +1,36 @@
+:root {
+  --color-s-1: #FFFFFF;
+  --color-s-2: rgba(255, 255, 255, 0.2);
+  --color-s-3: #111111;
+  --color-s-4: #000000;
+
+  --color-p-1: #EE2211;
+  --color-p-2: #900000;
+
+  --wave: url('../img/onda-dark.svg');
+
+  --transition: all .5s ease-in-out;
+}
+
+.color-s-1 { color: var(--color-s-1); }
+.color-s-2 { color: var(--color-s-2); }
+.color-s-3 { color: var(--color-s-3); }
+.color-s-4 { color: var(--color-s-4); }
+.color-p-1 { color: var(--color-p-1); }
+.color-p-2 { color: var(--color-p-2); }
+
+.font-1-s { font: 400 1rem / 24px 'Roboto', sans-serif; }
+.font-1-m { font: 400 1.25rem / 26px 'Roboto', sans-serif; }
+.font-1-m-b { font: 700 1.25rem / 26px 'Roboto', sans-serif; }
+.font-1-xl { font: 700 2rem / 36px 'Poppins', sans-serif; }
+.font-1-xxl { font: 700 4rem / 72px 'Poppins', sans-serif; }
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .font-1-xl { font: 700 1.5rem / 36px 'Poppins', sans-serif; }
+  .font-1-m { font: 400 1.125rem / 26px 'Roboto', sans-serif; }
+}
+
+@media (max-width: 600px) {
+  .font-1-xxl { font: 700 3rem / 72px 'Poppins', sans-serif; }
+}
